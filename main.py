@@ -106,5 +106,6 @@ df.loc[(df["RULE_1"] == 0) & (df["RULE_2"] == 0) & (df["RULE_3"] == 0) & (df["RU
 
 filtered_df = df[df["SENIORITY_RANKING"] != "Undefined"]
 print(filtered_df.head(5))
+ 
 
 df.to_csv("output.csv", index=False)
